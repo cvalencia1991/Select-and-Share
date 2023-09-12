@@ -6,7 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Understanding TypeScript</title>
   <script src="dist/bundle.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <script 
+    async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsU86ySmQTrkjPi7Q_ojJZ07FTandtFvo&callback=initMap"
+    defer>
+</script>
 </head>
 <body>
+  <div>
+    <div id="map">
+      <p>Please enter an address!</p>
+    </div>
+    <form>
+        <input type="text" id="address">
+        <button type="submit">SEARCH ADDRESS</button>
+  </div>
 </body>
 </html>
